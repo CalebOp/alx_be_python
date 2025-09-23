@@ -10,15 +10,14 @@ else:
     divide = "Cannot divide by zero"
 match operation:
     case "+":
-        print ("The result is", addition)
+        print("The result is", addition)
     case "-":
-        print ("The result is", subtract)
+        print("The result is", subtract)
     case "*":
-        print ("The result is", multiply)
+        print("The result is", multiply)
     case "/":
         if num2 != 0:
-            print ("The result is", divide)
+            print("The result is", divide)
         else:
             print("Cannot divide by zero.")
-    case "+":
-        print ("The result is", addition)
+    
